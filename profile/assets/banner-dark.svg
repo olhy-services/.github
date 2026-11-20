@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Olhy open source: olhy-redis-view, gps-simulator e device-lab">
+<rect width="1280" height="400" fill="#0d0d0e"/>
+<rect x="64" y="56" width="28" height="28" rx="7" fill="#ed261c"/>
+<circle cx="78" cy="70" r="6.5" fill="none" stroke="#ffffff" stroke-width="3"/>
+<text x="104" y="77" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2.5" fill="#a1a1aa">OLHY · OPEN SOURCE</text>
+<text x="64" y="150" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="50" font-weight="750" letter-spacing="-1" fill="#f4f4f5">Ferramentas que usamos todo dia</text>
+<text x="64" y="206" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="50" font-weight="750" letter-spacing="-1" fill="#f4f4f5">para construir o Olhy.</text>
+<rect x="64" y="262" width="368" height="98" rx="10" fill="#151517" stroke="#27272a"/>
+<text x="84" y="296" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#f4f4f5">olhy-redis-view</text>
+<text x="84" y="322" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#a1a1aa">Redis no navegador: chaves,</text>
+<text x="84" y="342" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#a1a1aa">Workbench, Pub/Sub, memória.</text>
+<rect x="456" y="262" width="368" height="98" rx="10" fill="#151517" stroke="#27272a"/>
+<text x="476" y="296" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#f4f4f5">gps-simulator</text>
+<text x="476" y="322" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#a1a1aa">GPS em movimento pelas ruas</text>
+<text x="476" y="342" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#a1a1aa">no Android e no simulador iOS.</text>
+<rect x="848" y="262" width="368" height="98" rx="10" fill="#151517" stroke="#27272a"/>
+<text x="868" y="296" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#f4f4f5">device-lab</text>
+<text x="868" y="322" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#a1a1aa">Android espelhado no navegador</text>
+<text x="868" y="342" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#a1a1aa">com DevTools do aparelho.</text>
+</svg>
