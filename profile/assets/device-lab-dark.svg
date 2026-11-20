@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="250" viewBox="0 0 1240 250" role="img" aria-label="Navegador conversa com o device-lab local, que fala com o Android por adb e scrcpy">
+<rect width="1240" height="250" fill="#0d1117"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8b949e"/></marker></defs>
+<rect x="40" y="60" width="300" height="120" rx="12" fill="#151b23" stroke="#30363d"/>
+<text x="64" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#f4f4f5">Navegador</text>
+<text x="64" y="134" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">espelho da tela</text>
+<text x="64" y="158" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">+ DevTools</text>
+<rect x="470" y="60" width="300" height="120" rx="12" fill="#151b23" stroke="#30363d"/>
+<text x="494" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#f4f4f5">device-lab</text>
+<text x="494" y="134" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">Node no seu computador</text>
+<text x="494" y="158" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">127.0.0.1</text>
+<rect x="900" y="60" width="300" height="120" rx="12" fill="#151b23" stroke="#30363d"/>
+<text x="924" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#f4f4f5">Android</text>
+<text x="924" y="134" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">USB ou Wi-Fi</text>
+<text x="924" y="158" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#a1a1aa">nada instalado</text>
+<line x1="348" y1="120" x2="462" y2="120" stroke="#8b949e" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="405" y="40" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#f4f4f5">WebSocket</text>
+<text x="405" y="215" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#a1a1aa">vídeo H.264 · toques · dados</text>
+<line x1="778" y1="120" x2="892" y2="120" stroke="#8b949e" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="835" y="40" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#f4f4f5">adb · scrcpy-server</text>
+<text x="835" y="215" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#a1a1aa">proxy HTTP/HTTPS por adb reverse</text>
+</svg>

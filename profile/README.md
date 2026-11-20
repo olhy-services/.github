@@ -32,7 +32,6 @@ Dragonfly.
 
 <p>
   <a href="https://github.com/olhy-services/olhy-redis-view"><img alt="Repositório" src="https://img.shields.io/badge/repo-olhy--redis--view-18181b?style=flat-square&logo=github"></a>
-  <img alt="Estrelas" src="https://img.shields.io/github/stars/olhy-services/olhy-redis-view?style=flat-square&label=estrelas&color=18181b">
   <img alt="Último commit" src="https://img.shields.io/github/last-commit/olhy-services/olhy-redis-view?style=flat-square&label=atualizado&color=18181b">
 </p>
 
@@ -82,13 +81,12 @@ desenvolvimento, mapas, app de entrega.
 
 <p>
   <a href="https://github.com/olhy-services/gps-simulator"><img alt="Repositório" src="https://img.shields.io/badge/repo-gps--simulator-18181b?style=flat-square&logo=github"></a>
-  <img alt="Estrelas" src="https://img.shields.io/github/stars/olhy-services/gps-simulator?style=flat-square&label=estrelas&color=18181b">
   <img alt="Último commit" src="https://img.shields.io/github/last-commit/olhy-services/gps-simulator?style=flat-square&label=atualizado&color=18181b">
 </p>
 
 <img alt="gps-simulator com uma rota de entrega traçada pelas ruas" src="https://github.com/olhy-services/.github/raw/main/profile/assets/gps.png" width="100%">
 
-| | |
+| Recurso | Como funciona |
 |---|---|
 | **Aparelhos** | Android 12+ por USB ou Wi-Fi (sem app instalado), emulador Android, simulador iOS no macOS. |
 | **Rota** | Busca de endereço, pontos arrastáveis, tempo de espera em cada parada, ida e volta. Rotas reais pelo OSRM. |
@@ -111,7 +109,6 @@ aparelho.
 
 <p>
   <a href="https://github.com/olhy-services/device-lab"><img alt="Repositório" src="https://img.shields.io/badge/repo-device--lab-18181b?style=flat-square&logo=github"></a>
-  <img alt="Estrelas" src="https://img.shields.io/github/stars/olhy-services/device-lab?style=flat-square&label=estrelas&color=18181b">
   <img alt="Último commit" src="https://img.shields.io/github/last-commit/olhy-services/device-lab?style=flat-square&label=atualizado&color=18181b">
 </p>
 
@@ -128,12 +125,10 @@ tudo numa página:
 | **Logcat** | Ao vivo, por nível, com busca e filtro "só o app na tela". |
 | **Apps, Arquivos, Processos** | Instalar APK arrastando, navegar pastas (inclusive a privada de apps de debug), encerrar processos. |
 
-```mermaid
-flowchart LR
-  B["Navegador<br/>espelho + DevTools"] <-- "WebSocket<br/>vídeo H.264 · toques" --> S["device-lab<br/>Node local"]
-  S <-- "adb · scrcpy-server" --> A["Android<br/>USB ou Wi-Fi"]
-  A -. "proxy HTTP/HTTPS<br/>(adb reverse)" .-> S
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/olhy-services/.github/raw/main/profile/assets/device-lab-dark.svg">
+  <img alt="O navegador fala com o device-lab no seu computador por WebSocket; o device-lab fala com o Android por adb e scrcpy-server" src="https://github.com/olhy-services/.github/raw/main/profile/assets/device-lab-light.svg" width="100%">
+</picture>
 
 ```bash
 git clone https://github.com/olhy-services/device-lab.git && cd device-lab
